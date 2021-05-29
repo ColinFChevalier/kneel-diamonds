@@ -2,6 +2,7 @@ import { getMetals, setMetal } from "./database.js" //needs setMetal function
 
 const metals = getMetals()
 
+
 document.addEventListener(
     "change",
     (event) => {
@@ -24,4 +25,3 @@ export const Metals = () => {
     html += "</ul>"
     return html
 }
-
